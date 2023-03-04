@@ -4,9 +4,36 @@
   
     
     <entry>
+      <title>JAVA学习L1 --输出helloword--</title>
+      <link href="/2023/03/04/JAVA%E5%AD%A6%E4%B9%A0L1-%E8%BE%93%E5%87%BAhelloword/"/>
+      <url>/2023/03/04/JAVA%E5%AD%A6%E4%B9%A0L1-%E8%BE%93%E5%87%BAhelloword/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1、代码"><a href="#1、代码" class="headerlink" title="1、代码"></a>1、代码</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Lesson1</span> &#123;</span><br><span class="line">    <span class="comment">//编写一个main方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;hello,word&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="2、代码详解"><a href="#2、代码详解" class="headerlink" title="2、代码详解"></a>2、代码详解</h2><hr><h3 id="1、public-class-Lesson1"><a href="#1、public-class-Lesson1" class="headerlink" title="1、public class Lesson1{  }"></a>1、public class Lesson1{  }</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Lesson1</span>&#123;  &#125;</span><br></pre></td></tr></table></figure><ul><li>表示Lesson1是一个类，是一个public公有的类</li><li>Lesson1{  }表示一个类的开始和结束</li></ul><hr><h3 id="2、public-static-void-main-String-args"><a href="#2、public-static-void-main-String-args" class="headerlink" title="2、public static void main(String[] args)"></a>2、public static void main(String[] args)</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span></span><br></pre></td></tr></table></figure><ul><li>表示一个主方法，即程序的入口</li><li>main{  }表示方法的开始和结束</li></ul><hr><h3 id="3、-System-out-println-“hello-word”"><a href="#3、-System-out-println-“hello-word”" class="headerlink" title="3、 System.out.println(“hello,word”);"></a>3、 System.out.println(“hello,word”);</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(<span class="string">&quot;hello,word&quot;</span>);</span><br></pre></td></tr></table></figure><ul><li>表示输出“hello，word”到屏幕上</li><li>; 表示语句结束</li></ul><hr><h2 id="3、运行"><a href="#3、运行" class="headerlink" title="3、运行"></a>3、运行</h2><h3 id="1、对java进行编译，生成-class文件"><a href="#1、对java进行编译，生成-class文件" class="headerlink" title="1、对java进行编译，生成.class文件"></a>1、对java进行编译，生成.class文件</h3><p>  在cmd中输入下列命令并运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javac Lesson1.java</span><br></pre></td></tr></table></figure><h3 id="2、运行"><a href="#2、运行" class="headerlink" title="2、运行"></a>2、运行</h3><p>  在cmd中输入下列命令并运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java Lesson1</span><br></pre></td></tr></table></figure><h3 id="3、效果展示"><a href="#3、效果展示" class="headerlink" title="3、效果展示"></a>3、效果展示</h3><p>  <img src="https://s1.ax1x.com/2023/03/04/ppA7Ons.png"></p><h3 id="4、学习教程"><a href="#4、学习教程" class="headerlink" title="4、学习教程"></a>4、学习教程</h3><iframe height= 450 width=800 src="//player.bilibili.com/player.html?aid=203821664&bvid=BV1fh411y7R8&cid=287964826&page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> java学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 编程 </tag>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
-      <link href="/2023/02/19/hello-world/"/>
-      <url>/2023/02/19/hello-world/</url>
+      <link href="/2020/02/22/hello-world/"/>
+      <url>/2020/02/22/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
