@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>JAVA学习L2 --java运行机制--</title>
+      <link href="/2023/033887437810.html"/>
+      <url>/2023/033887437810.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1、编译"><a href="#1、编译" class="headerlink" title="1、编译"></a>1、编译</h2><pre><code>javac Lesoon1.java</code></pre><ul><li>有了java源文件，通过编译器将其编译成JVM可以识别的字节码文件（.class）</li><li>在源文件目录下，通过<em>javac编译工具对Lesson1.java文件进行编译</em></li><li>若程序没有错误，讲不会有提示，但会在当前目录生成一个Lesson1.class的字节码文件，也是可以执行的java程序</li></ul><hr><h2 id="2、运行"><a href="#2、运行" class="headerlink" title="2、运行"></a>2、运行</h2><h3 id="1、概念"><a href="#1、概念" class="headerlink" title="1、概念"></a>1、概念</h3><pre><code>    1. 有了可执行的java程序（.class的字节码文件）    2. 通过java.exe运行工具对字节码文件进行执行（本质就是.class文件装载到jvm机执行）</code></pre><h3 id="2、注意事项"><a href="#2、注意事项" class="headerlink" title="2、注意事项"></a>2、注意事项</h3><pre><code>    1. 对修改后的java文件需要重新编译，生成新的.clss文件，再次执行才能生效</code></pre><hr><h2 id="3、java执行流程分析"><a href="#3、java执行流程分析" class="headerlink" title="3、java执行流程分析"></a>3、java执行流程分析</h2><p><img src="https://s1.ax1x.com/2023/03/05/ppEWQs0.png"></p><h2 id="4、学习教程"><a href="#4、学习教程" class="headerlink" title="4、学习教程"></a>4、学习教程</h2><iframe height= 450 width=800 src="//player.bilibili.com/player.html?aid=203821664&bvid=BV1fh411y7R8&cid=287964629&page=18" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> java学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 编程 </tag>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JAVA学习L1 --输出helloword--</title>
       <link href="/2023/033247497109.html"/>
       <url>/2023/033247497109.html</url>
