@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2023/030.html"/>
+      <url>/2023/030.html</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: JAVA学习L3 –java开发细节–<br>date: ‘2023/3/5 13:53’<br>comments: true<br>cover: ‘<a href="https://s1.ax1x.com/2023/03/20/pptQRAS.jpg&#39;">https://s1.ax1x.com/2023/03/20/pptQRAS.jpg&#39;</a><br>categories:</p><ul><li>java学习<br>tags:</li><li>编程</li><li>java</li></ul><hr><p>1、java源文件以.java为拓展名，源文件的基本组成是类（.class）<br>2、java应用的程序入口是main()方法，且书写格式固定<br>3、Java严格区分大小写<br>4、Java方法由一条条语句构成，每个语句以“；”结束<br>5、大括号成对出现，缺一不可（先写{}再写代码）<br>6、一个源文件只能有一个public类，其他类的个数不限（编译后每一个类都对应一个.class）<br>7、如果源文件<em>包含一个public类</em>则<em>文件名必须按该类命名</em><br>8、一个源文件中只能有一个public类，其他类的个数不限，<br>也可以讲main方法写在非public类中，然后指定运行非public类，这样入口方法就是非publi的main方法，如：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Dog</span>&#123;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">System.out.println(<span class="string">&#x27;hello, 小狗狗&#x27;</span>)；</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JAVA学习L2 --java运行机制--</title>
       <link href="/2023/033887437810.html"/>
       <url>/2023/033887437810.html</url>
