@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>JAVA学习L3 --java开发细节--</title>
+      <link href="/2023/033247497110.html"/>
+      <url>/2023/033247497110.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h2><p>1、java源文件以.java为拓展名，源文件的基本组成是类（.class）<br>2、java应用的程序入口是main()方法，且书写格式固定<br>3、Java严格区分大小写<br>4、Java方法由一条条语句构成，每个语句以“；”结束<br>5、大括号成对出现，缺一不可（先写{}再写代码）<br>6、一个源文件只能有一个public类，其他类的个数不限（编译后每一个类都对应一个.class）<br>7、如果源文件<em>包含一个public类</em>则<em>文件名必须按该类命名</em><br>8、一个源文件中只能有一个public类，其他类的个数不限，<br>也可以讲main方法写在非public类中，然后指定运行非public类，这样入口方法就是非publi的main方法，如：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Dog</span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&#x27;hello, 小狗狗&#x27;</span>)；</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> java学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 编程 </tag>
+            
+            <tag> java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JAVA学习L2 --java运行机制--</title>
       <link href="/2023/033887437810.html"/>
       <url>/2023/033887437810.html</url>
@@ -36,33 +63,6 @@
       <url>/2023/033247497109.html</url>
       
         <content type="html"><![CDATA[<h2 id="1、代码"><a href="#1、代码" class="headerlink" title="1、代码"></a>1、代码</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Lesson1</span> &#123;</span><br><span class="line">    <span class="comment">//编写一个main方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;hello,word&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="2、代码详解"><a href="#2、代码详解" class="headerlink" title="2、代码详解"></a>2、代码详解</h2><hr><h3 id="1、public-class-Lesson1"><a href="#1、public-class-Lesson1" class="headerlink" title="1、public class Lesson1{  }"></a>1、public class Lesson1{  }</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Lesson1</span>&#123;  &#125;</span><br></pre></td></tr></table></figure><ul><li>表示Lesson1是一个类，是一个public公有的类</li><li>Lesson1{  }表示一个类的开始和结束</li></ul><hr><h3 id="2、public-static-void-main-String-args"><a href="#2、public-static-void-main-String-args" class="headerlink" title="2、public static void main(String[] args)"></a>2、public static void main(String[] args)</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span></span><br></pre></td></tr></table></figure><ul><li>表示一个主方法，即程序的入口</li><li>main{  }表示方法的开始和结束</li></ul><hr><h3 id="3、-System-out-println-“hello-word”"><a href="#3、-System-out-println-“hello-word”" class="headerlink" title="3、 System.out.println(“hello,word”);"></a>3、 System.out.println(“hello,word”);</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(<span class="string">&quot;hello,word&quot;</span>);</span><br></pre></td></tr></table></figure><ul><li>表示输出“hello，word”到屏幕上</li><li>; 表示语句结束</li></ul><hr><h2 id="3、运行"><a href="#3、运行" class="headerlink" title="3、运行"></a>3、运行</h2><h3 id="1、对java进行编译，生成-class文件"><a href="#1、对java进行编译，生成-class文件" class="headerlink" title="1、对java进行编译，生成.class文件"></a>1、对java进行编译，生成.class文件</h3><p>  在cmd中输入下列命令并运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javac Lesson1.java</span><br></pre></td></tr></table></figure><h3 id="2、运行"><a href="#2、运行" class="headerlink" title="2、运行"></a>2、运行</h3><p>  在cmd中输入下列命令并运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java Lesson1</span><br></pre></td></tr></table></figure><h3 id="3、效果展示"><a href="#3、效果展示" class="headerlink" title="3、效果展示"></a>3、效果展示</h3><p>  <img src="https://s1.ax1x.com/2023/03/04/ppA7Ons.png"></p><h3 id="4、学习教程"><a href="#4、学习教程" class="headerlink" title="4、学习教程"></a>4、学习教程</h3><iframe height= 450 width=800 src="//player.bilibili.com/player.html?aid=203821664&bvid=BV1fh411y7R8&cid=287964826&page=17" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-      
-      
-      <categories>
-          
-          <category> java学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 编程 </tag>
-            
-            <tag> java </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>JAVA学习L1 --输出helloword--</title>
-      <link href="/2023/033247497110.html"/>
-      <url>/2023/033247497110.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h2><p>1、java源文件以.java为拓展名，源文件的基本组成是类（.class）<br>2、java应用的程序入口是main()方法，且书写格式固定<br>3、Java严格区分大小写<br>4、Java方法由一条条语句构成，每个语句以“；”结束<br>5、大括号成对出现，缺一不可（先写{}再写代码）<br>6、一个源文件只能有一个public类，其他类的个数不限（编译后每一个类都对应一个.class）<br>7、如果源文件<em>包含一个public类</em>则<em>文件名必须按该类命名</em><br>8、一个源文件中只能有一个public类，其他类的个数不限，<br>也可以讲main方法写在非public类中，然后指定运行非public类，这样入口方法就是非publi的main方法，如：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Dog</span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&#x27;hello, 小狗狗&#x27;</span>)；</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
